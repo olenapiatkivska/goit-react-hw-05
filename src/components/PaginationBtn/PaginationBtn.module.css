@@ -1,0 +1,16 @@
+.paginationBtn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  background-color: yellow;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.paginationBtn:hover,
+.paginationBtn:focus,
+.paginationBtn:active {
+  background-color: gold;
+}

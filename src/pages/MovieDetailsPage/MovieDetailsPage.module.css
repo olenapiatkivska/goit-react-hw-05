@@ -1,0 +1,53 @@
+.btnGoBack {
+  display: inline-flex;
+  font-weight: 500;
+  gap: 4px;
+  border-radius: 4px;
+  background-color: yellow;
+  transition: background-color 250ms linear;
+  padding: 6px 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.btnGoBack:hover,
+.btnGoBack:focus,
+.btnGoBack:active {
+  background-color: gold;
+}
+.movieDetailswrapp {
+  display: flex;
+  gap: 20px;
+}
+.movieDetailsDescription {
+  width: 450px;
+}
+.movieDetailsTitle {
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.movieDetailsText {
+  color: #fff;
+  font-size: 18px;
+}
+.listLinkMovieDetails {
+  display: flex;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+.link {
+  color: yellow;
+  font-size: 16px;
+  font-weight: 500;
+  transition: color 100ms linear;
+}
+
+.link:hover,
+.link:focus-visible,
+.link:active {
+  color: gold;
+}
+
+.active {
+  color: gold;
+}
